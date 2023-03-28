@@ -1,0 +1,13 @@
+{
+    "realm": "demoRealm",
+    "auth-server-url": "http://localhost:8080/",
+    "ssl-required": "external",
+    "resource": "demoReact",
+    "credentials": {
+      "secret": "U2ZYhfmry8nFMLgbmzz80gYnzUlpbEbQ"
+    },
+    "confidential-port": 0,
+    "enable-cors": true,
+    "cors-allowed-methods" : "POST, PUT, DELETE, GET",
+    "cors-allowed-headers" : "Content-type, Origin"
+  }
