@@ -9,16 +9,16 @@ import Home from "./component/Home";
 function App() {
   return (
     <>
-      <Router>
-        <Navbar />
-        <Sidebar>
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/userDetails" element={<UserData />} />
-            <Route exact path="/courseDetails" element={<CourseDetails />} />
-          </Routes>
-        </Sidebar>
-      </Router>
+        <Router>
+          <Navbar />
+          <Sidebar>
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route exact path="/userDetails" element={<UserData />} />
+              <Route exact path="/courseDetails" element={<CourseDetails />} />
+            </Routes>
+          </Sidebar>
+        </Router>
     </>
   );
 }
