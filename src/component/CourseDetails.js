@@ -1,18 +1,10 @@
 import React, { useEffect, useState } from "react";
 import CourseItem from "./CourseItem";
-
+import courseData from "./courseData.json"
 const CourseDetails = () => {
   const [courses, setCourses] = useState([])
   const getCourse = async () => {
-    const url = "https://hub.dummyapis.com/vj/mmqG4S6";
-    const response = await fetch(url, {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-    const json = await response.json();
-    setCourses(json);
+    setCourses(courseData);
   };
 
   useEffect(() => {
@@ -20,7 +12,6 @@ const CourseDetails = () => {
   }, [])
 
   useEffect(() => {
-    console.log(courses)
   }, [courses])
   
   

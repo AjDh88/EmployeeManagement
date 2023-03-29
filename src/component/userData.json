@@ -1,0 +1,86 @@
+[
+    {
+      "id": 1001,
+      "userName": "pankaj_ghode",
+      "imageUrl": "https://hub.dummyapis.com/Image?text=VM&height=120&width=120",
+      "firstName": "Pankaj",
+      "lastName": "Ghode",
+      "email": "pankaj_ghode@persistent.com",
+      "contactNumber": "4668296508",
+      "age": 23,
+      "dob": "07/11/2000",
+      "address": "Address1"
+    },
+    {
+      "id": 1002,
+      "userName": "omkar_dafale",
+      "imageUrl": "https://hub.dummyapis.com/Image?text=VM&height=120&width=120",
+      "firstName": "Omkar",
+      "lastName": "Dafale",
+      "email": "omkar_dafale@persistent.com",
+      "contactNumber": "4668296508",
+      "age": 23,
+      "dob": "19/03/2000",
+      "address": "Address1"
+    },
+    {
+      "id": 1003,
+      "userName": "sourabh_pawar",
+      "imageUrl": "https://hub.dummyapis.com/Image?text=VM&height=120&width=120",
+      "firstName": "Sourabh",
+      "lastName": "Pawar",
+      "email": "sourabh_pawar@persistent.com",
+      "contactNumber": "4668296508",
+      "age": 23,
+      "dob": "23/10/1999",
+      "address": "Address1"
+    },
+    {
+      "id": 1004,
+      "userName": "ajay_dhabade",
+      "imageUrl": "https://hub.dummyapis.com/Image?text=VM&height=120&width=120",
+      "firstName": "Ajay",
+      "lastName": "Dhabade",
+      "email": "ajay_dhabade@persistent.com",
+      "contactNumber": "4668296508",
+      "age": 23,
+      "dob": "17/12/2000",
+      "address": "Address1"
+    },
+    {
+      "id": 1005,
+      "userName": "nikhil_sahu",
+      "imageUrl": "https://hub.dummyapis.com/Image?text=MF&height=120&width=120",
+      "firstName": "Nikhil",
+      "lastName": "Sahu",
+      "email": "nikhil_sahu@persistent.com",
+      "contactNumber": "4789392067",
+      "age": 23,
+      "dob": "03/01/2000",
+      "address": "Address5"
+    },
+    {
+      "id": 1006,
+      "userName": "vishal_shep",
+      "imageUrl": "https://hub.dummyapis.com/Image?text=DW&height=120&width=120",
+      "firstName": "Vishal",
+      "lastName": "Shep",
+      "email": "vishal_shep@persistent.com",
+      "contactNumber": "4435099104",
+      "age": 23,
+      "dob": "03/07/1999",
+      "address": "Address6"
+    },
+    {
+      "id": 1007,
+      "userName": "paladugu_thanuja",
+      "imageUrl": "https://hub.dummyapis.com/Image?text=ST&height=120&width=120",
+      "firstName": "Paladugu",
+      "lastName": "Thanuja",
+      "email": "paladugu_thanuja@persistent.com",
+      "contactNumber": "4047598065",
+      "age": 23,
+      "dob": "07/02/1999",
+      "address": "Address7"
+    }
+  ]

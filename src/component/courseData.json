@@ -1,0 +1,37 @@
+[
+    {
+      "id": 102,
+      "name": "JavaScript",
+      "course_level": "Beginner",
+      "productPrice": "$ 99",
+      "createdOn": "07/07/2022"
+    },
+    {
+      "id": 501,
+      "name": "Node js",
+      "course_level": "Beginner",
+      "productPrice": "$ 99",
+      "createdOn": "27/08/2022"
+    },
+    {
+      "id": 983,
+      "name": "React js ",
+      "course_level": "Beginner",
+      "productPrice": "$ 99",
+      "createdOn": "08/03/2023"
+    },
+    {
+      "id": 861,
+      "name": "Angular",
+      "course_level": "Beginner",
+      "productPrice": "$ 99",
+      "createdOn": "21/08/2022"
+    },
+    {
+      "id": 86,
+      "name": "MongoDB",
+      "course_level": "Beginner",
+      "productPrice": "$ 99",
+      "createdOn": "21/05/2021"
+    }
+  ]

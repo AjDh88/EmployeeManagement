@@ -1,21 +1,20 @@
 import React, { useState, useEffect } from "react";
 import UserItems from "./UserItems";
-const UserData = () => {
+import userData  from "./userData.json"
+const UserData = ({isAdmin,username}) => {
   const [users, setUsers] = useState([]);
   
 
   const getAllUsers = async () => {
-    const url =
-      "https://hub.dummyapis.com/employee?noofRecords=10&idStarts=1001";
-    const response = await fetch(url, {
-      method: "GET", // *GET, POST, PUT, DELETE, etc.
-      headers: {
-        "Content-Type": "application/json",
-        // 'Content-Type': 'application/x-www-form-urlencoded',
-      },
-    });
-    const json = await response.json();
-    setUsers(json);
+    if(isAdmin){
+      setUsers(userData);
+    }
+    else{
+      const singleData = userData.filter((element)=>element.userName === username )[0]
+      const user_data = [singleData]
+      // console.log(demo)
+      setUsers(user_data)
+    }
   };
   useEffect(() => {
     getAllUsers();

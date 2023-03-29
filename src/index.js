@@ -1,18 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Keycloak from 'keycloak-js';
 
-console.log("Start");
-let keycloak = new Keycloak('./resources/keycloak.json');
-console.log("Keycloak init");
+const keycloak = new Keycloak({
+    url: 'http://localhost:8080/',
+    realm: 'demoRealm',
+    clientId: 'demoReact'
+});
 
 keycloak.init({ onLoad: 'login-required' }).then(() => {
-    console.log("Inside console log");
-    ReactDOM.render(
-        console.log("App initiated"),
-        <App keycloak={keycloak} />,
-        document.getElementById('root')
-    );
+    sessionStorage.setItem('authentication', keycloak.token);
+    sessionStorage.setItem('refreshToken', keycloak.refreshToken);
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(
+        <React.StrictMode>
+            <App keycloak={keycloak}/>
+        </React.StrictMode>
+    );    
 });
